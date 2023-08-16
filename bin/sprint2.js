@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require("source-map-support/register");
 const cdk = require("aws-cdk-lib");
 const { MKPipelineStack } = require("../lib/MKPipelineStack");
 
